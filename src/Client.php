@@ -7,7 +7,7 @@ namespace CandleLight\Artisan;
  * Main Artisan Client
  * @package CandleLight\Artisan
  */
-class Artisan{
+class Client{
 
     const STRING_COMMAND = '%s:<operation>' . PHP_EOL;
     const STRING_DESCRIPTION = '    %s' . PHP_EOL;

@@ -55,7 +55,7 @@ class Operation{
      * @param Command $command Command this Operation is registered to
      */
     public function printHelp(Command $command){
-        printf(Artisan::STRING_OPERATION, $command->getName(), $this->getName());
-        printf(Artisan::STRING_DESCRIPTION, $this->getDescription());
+        printf(Client::STRING_OPERATION, $command->getName(), $this->getName());
+        printf(Client::STRING_DESCRIPTION, $this->getDescription());
     }
 }

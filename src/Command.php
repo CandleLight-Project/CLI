@@ -89,8 +89,8 @@ class Command{
      * Prints the Commands full help-string
      */
     public function printHelp(): void{
-        printf(Artisan::STRING_COMMAND, $this->getName());
-        printf(Artisan::STRING_DESCRIPTION, $this->getDescription());
+        printf(Client::STRING_COMMAND, $this->getName());
+        printf(Client::STRING_DESCRIPTION, $this->getDescription());
         foreach ($this->operations as $operation) {
             $operation->printHelp($this);
         }
