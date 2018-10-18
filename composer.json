@@ -1,0 +1,19 @@
+{
+    "name": "candlelight/cli",
+    "description": "CLI for the CandleLight Framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jannik Schäfer",
+            "email": "me@jschaefer.io",
+            "homepage": "https://jschaefer.io/"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "CandleLight\\": "src/"
+        }
+    }
+}
